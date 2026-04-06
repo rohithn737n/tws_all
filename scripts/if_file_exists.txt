@@ -1,0 +1,8 @@
+#!/bin/bash
+
+read -p "Enter file path to be found: " file_path
+if [ -f "$file_path" ]; then
+	echo "File exists"
+else
+	echo "File is not present"
+fi
